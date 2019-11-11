@@ -1,0 +1,15 @@
+#Funimation Downloader NX configuration v1
+bin:
+  ffmpeg: /usr/local/bin/ffmpeg
+  mkvmerge: /usr/local/bin/mkvmerge
+dir:
+  content: /Users/USER/Downloads/AppDL/funi/
+  trash: ${__dirname}/videos/_trash/
+cli:
+  releaseGroup: Funimation
+  videoLayer: 10
+  fileSuffix: SIZEp
+  nServer: 1
+  mp4mux: false
+  muxSubs: true
+  noCleanUp: false

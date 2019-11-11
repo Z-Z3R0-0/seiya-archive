@@ -1,0 +1,40 @@
+{
+    "name": "crunchyroll-downloader-nx",
+    "version": "4.11.0",
+    "description": "Download from Crunchyroll via cli.",
+    "keywords": [
+        "util",
+        "utility",
+        "download",
+        "downloader",
+        "crunchyroll"
+    ],
+    "author": "Seiya Dev.",
+    "homepage": "https://github.com/seiya-dev/crunchyroll-downloader-nx",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/seiya-dev/crunchyroll-downloader-nx.git"
+    },
+    "bugs": {
+        "url": "https://github.com/seiya-dev/crunchyroll-downloader-nx/issues"
+    },
+    "license": "MIT",
+    "main": "crunchy.js",
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.3",
+        "got": "^9.6.0",
+        "hls-download": "^2.2.1",
+        "lookpath": "^1.0.3",
+        "m3u8-parsed": "^1.2.0",
+        "proxy-agent": "^3.1.1",
+        "sei-helper": "^3.3.0",
+        "yaml": "^1.7.2",
+        "yargs": "^14.2.0"
+    },
+    "scripts": {
+        "build-dep": "npm i -g removeNPMAbsolutePaths && npm i -g nexe",
+        "build-win-pre": "removeNPMAbsolutePaths . && ( if exist \"crunchy-%npm_package_version%-win64\" rmdir \"./crunchy-%npm_package_version%-win64/\" /s /q ) && mkdir \"./crunchy-%npm_package_version%-win64/config/\" && mkdir \"./crunchy-%npm_package_version%-win64/fonts/\" && mkdir \"./crunchy-%npm_package_version%-win64/videos/_trash/\"",
+        "build-win": "npm run build-win-pre && mkdir \"./crunchy-%npm_package_version%-win64/bin/\" && nexe \"./crunchy.js\" -r \"./modules/*\" -t \"windows-x64\" -o \"./crunchy-%npm_package_version%-win64/crunchy.exe\" && copy \"./config/\\*-*\" \"./crunchy-%npm_package_version%-win64/config/\" /Y && copy \"cmd-here.bat\" \"./crunchy-%npm_package_version%-win64/\"",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
+}

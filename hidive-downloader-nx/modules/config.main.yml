@@ -1,0 +1,20 @@
+#HIDIVE Downloader NX configuration v3
+bin:
+  ffmpeg: /usr/local/bin/ffmpeg
+  mkvmerge: /usr/local/bin/mkvmerge
+dir:
+  content: /Users/USER/Downloads/AppDL/hidive/
+  trash: ${__dirname}/videos/_trash/
+cli:
+  releaseGroup: HIDIVE
+  # assTitleTag: HIDIVE
+  # muxTitleTag: HIDIVE
+  fileSuffix: SIZEp
+  videoQuality: 1080p
+  dubLanguage: eng
+  mp4mux: false
+  muxSubs: true
+  capsSubs: false
+  # assFont: Open Sans Semibold
+  noCleanUp: false
+#eof
