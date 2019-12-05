@@ -1,7 +1,7 @@
-Backup of seiya-dev downloaders/repo's - https://twitter.com/seiya_loveless before they where taken down.
-crunchyroll-downloader-nx V4.11.0
-funimation-downloader-nx V4.4.2
-hidive-downloader-nx V1.11.0 - Broken, API needs to be updated
+Backup of seiya-dev downloaders/repo's - https://twitter.com/seiya_loveless before they where taken down.  
+crunchyroll-downloader-nx V4.11.0  
+funimation-downloader-nx V4.4.2  
+hidive-downloader-nx V1.11.0 - Broken, API needs to be updated  
  
 Mirror Download:
 https://www.sendspace.com/file/i5ktoi
