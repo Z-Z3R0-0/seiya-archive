@@ -7,3 +7,4 @@ Mirror Download:
 https://www.sendspace.com/file/i5ktoi  
 https://mega.nz/#!gwFHFY5B!cWnWxBuRo2llE_kR_Ii2PAv0hf_LaH6EFLZJG-7VJpo  
 https://www.mediafire.com/file/6txat8657chircu/seiya-archive_%255BZ3R0%255D.zip/file  
+https://archive.org/details/seiyaarchivez3r0_201912
