@@ -25,7 +25,7 @@
     "dependencies": {
         "form-data": "^2.3.3",
         "got": "^9.6.0",
-        "hls-download": "^2.2.1",
+        "hls-download": "2.2.1",
         "m3u8-parsed": "^1.2.0",
         "proxy-agent": "^3.1.1",
         "sei-helper": "^3.3.0",
